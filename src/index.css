@@ -49,39 +49,39 @@ body {
     justify-content: space-between;
   }
   
-  .weather-app-city {
+  .app-city {
     margin: 0;
     font-size: 38px;
     line-height: 48px;
   }
   
-  .weather-app-details {
+  .app-details {
     font-size: 16px;
-    color: rgba(39, 33, 66, 0.4);
+    color: rgba(39, 37, 66, 0.4);
     line-height: 24px;
     font-weight: 500;
   }
   
-  .weather-app-details strong {
+  .app-details strong {
     color: #f65282;
   }
   
-  .weather-app-temperature-container {
+  .app-temperature-container {
     display: flex;
   }
   
-  .weather-app-icon {
+  .app-icon {
     font-size: 44px;
     margin-top: 22px;
   }
   
-  .weather-app-temperature {
+  .app-temperature {
     font-size: 88px;
     margin-left: 10px;
     font-weight: bold;
   }
   
-  .weatehr-app-unit {
+  .app-unit {
     margin-top: 16px;
     font-size: 28px;
   }

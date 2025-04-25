@@ -12,29 +12,41 @@
   <title>Weather App</title>
 </head>
 <body>
-    <div class="app">
-    <header> 
-        <form> 
-            <input type = "search" placeholder="Enter City..." required />
-            <input type="submit" value="search"/>
-        </form>
-    </header>
-    <main>
-        <h1> Harare</h1>
-        <div> 🌤️ 12°C </div>
-        <p>
-            Monday 10:53, scattered clouds 
-            <br/>
-            Humidity: <strong> 60% </strong>, Wind: <strong> 3.1km/hr </strong> 
-        </p>
-    
-    
-    </main>
-
+    <div class="weather-app">
+        <header>
+          <form class="search-form" id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              id="search-form-input"
+              class="search-form-input"
+            />
+            <input type="submit" value="Search" class="search-form-button" />
+          </form>
+        </header>
+        <main>
+          <div class="weather-app-data">
+            <div>
+              <h1 class="weather-app-city" id = "city">Harare</h1>
+              <p class="weather-app-details">
+                Tuesday 14:49, scattered clouds
+                <br />
+                Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+              </p>
+            </div>
+            <div class="weather-app-temperature-container">
+              <div class="weather-app-icon">🌤️</div>
+              <div class="weather-app-temperature">12</div>
+              <div class="weatehr-app-unit">°C</div>
+            </div>
+          </div>
+        </main>
  <footer>coded by Ruvarashe Muchenje 
     code hosted on <a href="https://github.com/ruva-muchenje/my-new-project"> GitHub </a> Website hosted on <a href="https://ruvaweatherapp.netlify.app/">  Netlify </a> 
  </footer>
 </div>
+<script src=" src/index.js"></script>
 </body>
 </html>
 
